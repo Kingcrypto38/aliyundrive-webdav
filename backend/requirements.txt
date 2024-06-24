@@ -1,3 +1,4 @@
 fastapi>=0.93.0
 httpx
 uvicorn[standard]
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
